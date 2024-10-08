@@ -18,14 +18,14 @@ JAKARTA
 
 Source Code index.html
 ![image](https://github.com/user-attachments/assets/5d96d055-f2d3-4115-93b8-68a1e7b56e8e)
-  - <!DOCTYPE html>: Menandakan bahwa dokumen ini menggunakan HTML5.
-  - <html lang=id>: Bahasa halaman diatur ke bahasa Indonesia.
-  - <meta charset="UTF-8'>: Mengatur encoding karakter ke UTF-8.
-  - <meta name="viewport" content="width=device-width, initial-scale=1.0>: Membuat halaman web responsif (terlihat baik di perangkat apa pun).
-  - <title>Aplikasi Buku Favorit</title>: Menentukan judul yang ditampilkan di tab browser."
+  - <!DOCTYPE>    : Menandakan bahwa dokumen ini menggunakan HTML5.
+  - <html lang>   : Bahasa halaman diatur ke bahasa Indonesia.
+  - <meta charset>: Mengatur encoding karakter ke UTF-8.
+  - <meta>        : Membuat halaman web responsif (terlihat baik di perangkat apa pun).
+  - <title>       : Menentukan judul yang ditampilkan di tab browser."
 
 ![image](https://github.com/user-attachments/assets/3f7a5f4a-4d6c-4f89-b1f4-a7e5d5148291)
-   - "<h1>Aplikasi Buku Favorit</h1>": Judul utama halaman.
+   - "<h1>: Judul utama halaman.
    1 Input Nama Pengguna:
      - Form input untuk pengguna memasukkan nama mereka dengan <input> dan tombol Simpan Nama untuk menyimpan nama. Nama ini nantinya akan ditampilkan dengan tag <h3>.
 
