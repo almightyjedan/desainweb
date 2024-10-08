@@ -60,6 +60,7 @@ Source Code script.js
   - Ketika halaman dimuat, mengambil daftar buku dan favorit dari local storage dan menampilkannya, serta menampilkan nama pengguna jika ada.
 
 Source Code styles.css
+
 ![image](https://github.com/user-attachments/assets/0961685e-99a8-4ade-a48e-8fa442bd7a7a)
 
 
