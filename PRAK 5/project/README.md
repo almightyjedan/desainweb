@@ -18,27 +18,11 @@ JAKARTA
 
 Source Code index.html
 ![image](https://github.com/user-attachments/assets/5d96d055-f2d3-4115-93b8-68a1e7b56e8e)
-  - <!DOCTYPE>    : Menandakan bahwa dokumen ini menggunakan HTML5.
-  - <html lang>   : Bahasa halaman diatur ke bahasa Indonesia.
-  - <meta charset>: Mengatur encoding karakter ke UTF-8.
-  - <meta>        : Membuat halaman web responsif (terlihat baik di perangkat apa pun).
-  - <title>       : Menentukan judul yang ditampilkan di tab browser."
+![image](https://github.com/user-attachments/assets/58dfe9e4-9026-49d6-9e64-ed1cfb6be599)
+
 
 ![image](https://github.com/user-attachments/assets/3f7a5f4a-4d6c-4f89-b1f4-a7e5d5148291)
-   - "<h1>: Judul utama halaman.
-   1 Input Nama Pengguna:
-     - Form input untuk pengguna memasukkan nama mereka dengan <input> dan tombol Simpan Nama untuk menyimpan nama. Nama ini nantinya akan ditampilkan dengan tag <h3>.
-
-   2 Form Tambah Buku:
-     - Formulir untuk menambah buku baru dengan 3 input: judul, penulis, dan tahun terbit. Ada juga tombol Tambah Buku untuk mengirim data.
-
-   3 Daftar Buku:
-     - Bagian untuk menampilkan buku yang sudah ditambahkan pengguna. Konten akan muncul di dalam <div id="daftar-buku'>.
-
-   4 Buku Favorit:
-     - Bagian ini digunakan untuk menampilkan buku-buku yang sudah ditandai sebagai favorit. Konten favorit muncul dalam <div id="buku-favorit'>.
-
-   - <script src="script.js"></script>: Menghubungkan file JavaScript (script.js) yang mengatur logika aplikasi. 
+![image](https://github.com/user-attachments/assets/b4150cac-6e5b-4f02-bfce-59c431267701)
 
 Source Code script.js
 // Definisi Class Buku
