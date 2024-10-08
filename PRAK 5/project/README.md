@@ -25,7 +25,7 @@ Source Code index.html
   - <title>Aplikasi Buku Favorit</title>: Menentukan judul yang ditampilkan di tab browser."
 
 ![image](https://github.com/user-attachments/assets/3f7a5f4a-4d6c-4f89-b1f4-a7e5d5148291)
-   - <h1>Aplikasi Buku Favorit</h1>: Judul utama halaman.
+   - "<h1>Aplikasi Buku Favorit</h1>": Judul utama halaman.
    1 Input Nama Pengguna:
      - Form input untuk pengguna memasukkan nama mereka dengan <input> dan tombol Simpan Nama untuk menyimpan nama. Nama ini nantinya akan ditampilkan dengan tag <h3>.
 
