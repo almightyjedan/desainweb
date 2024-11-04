@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Wiki</title>
+    <link rel="icon" href="assets/Desktop Wallpaper_Valorant.png"></link>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="section-1">
+        <div class="headings">
+            <h1>Valorant Wiki</h1>
+            <h2>Choose Your Agent</h2>
+        </div>
+        <div class="banner-img">
+            <img src="assets/Desktop Wallpaper_Valorant.png" alt="Valorant Banner">
+        </div>
+    </section>
+
+    <section id="section-2">
+        <main id="agent-details">
+            <h2 id="agent-name">Select An Agent</h2>
+            <p id="agent-role">Role will appear here</p>
+            <p id="agent-description">Agent description will appear here when you select an agent.</p>
+        </main>
+        
+        <div class="agent-select">
+            <div id="agent-grid">
+            </div>
+        </div>
+    </section>
+
+    <section id="section-3">
+        <div class="map-header">
+            <h2>VALORANT MAPS</h2>
+            <p>Choose a map to learn more</p>
+        </div>
+        
+        <div class="map-container">
+            <div class="map-grid">
+                <div class="map-card" data-map="Abyss">
+                    <img src="assets/maps/Abyss.webp" alt="Abyss">
+                    <div class="map-info">
+                        <h3>Abyss</h3>
+                        <p>Atlantis</p>
+                    </div>
+                </div>
+                <div class="map-card" data-map="Ascent">
+                    <img src="assets/maps/Ascent.webp" alt="Ascent">
+                    <div class="map-info">
+                        <h3>ASCENT</h3>
+                        <p>Italy</p>
+                    </div>
+                </div>
+                
+                <div class="map-card" data-map="Bind">
+                    <img src="assets/maps/Bind.webp" alt="Bind">
+                    <div class="map-info">
+                        <h3>BIND</h3>
+                        <p>Morocco</p>
+                    </div>
+                </div>
+                
+                <div class="map-card" data-map="Haven">
+                    <img src="assets/maps/Haven.webp" alt="Haven">
+                    <div class="map-info">
+                        <h3>HAVEN</h3>
+                        <p>Bhutan</p>
+                    </div>
+                </div>
+                
+                <div class="map-card" data-map="Split">
+                    <img src="assets/maps/Split.webp" alt="Split">
+                    <div class="map-info">
+                        <h3>SPLIT</h3>
+                        <p>Japan</p>
+                    </div>
+                </div>
+                
+                <div class="map-card" data-map="Icebox">
+                    <img src="assets/maps/Icebox.webp" alt="Icebox">
+                    <div class="map-info">
+                        <h3>ICEBOX</h3>
+                        <p>Russia</p>
+                    </div>
+                </div>
+                
+                <div class="map-card" data-map="Breeze">
+                    <img src="assets/maps/Breeze.webp" alt="Breeze">
+                    <div class="map-info">
+                        <h3>BREEZE</h3>
+                        <p>Caribbean</p>
+                    </div>
+                </div>
+                
+                <div class="map-card" data-map="Fracture">
+                    <img src="assets/maps/Fracture.webp" alt="Fracture">
+                    <div class="map-info">
+                        <h3>FRACTURE</h3>
+                        <p>USA</p>
+                    </div>
+                </div>
+                
+                <div class="map-card" data-map="Pearl">
+                    <img src="assets/maps/Pearl.webp" alt="Pearl">
+                    <div class="map-info">
+                        <h3>PEARL</h3>
+                        <p>Portugal</p>
+                    </div>
+                </div>
+                
+                <div class="map-card" data-map="Lotus">
+                    <img src="assets/maps/Lotus.webp" alt="Lotus">
+                    <div class="map-info">
+                        <h3>LOTUS</h3>
+                        <p>India</p>
+                    </div>
+                </div>
+
+                <div class="map-card" data-map="Sunset">
+                    <img src="assets/maps/Sunset.webp" alt="Sunset">
+                    <div class="map-info">
+                        <h3>Sunset</h3>
+                        <p>USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="map">
+        <div class="map-content">
+            <span class="close-button">&times;</span>
+            
+            <div class="map-header">
+                <h2 id="map-name"></h2>
+                <h3 id="map-location"></h3>
+            </div>
+
+            <div class="map-body">
+                <div class="body-img">
+                    <img id="body-map-img" src="" alt="Map Image">
+                </div>
+                
+                <div class="modal-info">
+                    <div class="description">
+                        <p id="map-desc"></p>
+                    </div>
+                    <div class="minimap">
+                        <h4>Minimap</h4>
+                        <img id="minimap-img" src="" alt="Minimap">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="minimap-zoom">
+        <div class="minimap-zoom-content">
+            <button class="close-zoom">&times;</button>
+            <img id="zoomed-minimap" src="" alt="Zoomed Minimap">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
