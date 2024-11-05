@@ -31,3 +31,7 @@ Dosen Pembimbing : Adi Wahyu Pribadi , S.Si., M.Kom.
 ![Screenshot 2024-11-05 174851](https://github.com/user-attachments/assets/ca403d32-9fdd-4930-86da-50faae3e35bf)
 
 ![Screenshot 2024-11-05 174907](https://github.com/user-attachments/assets/ad0e5280-c5da-4126-b234-8c1a8d060e94)
+
+<h3>HASIL</h3>
+
+![image](https://github.com/user-attachments/assets/3bb84c8e-0f98-4a06-ab90-79bdab5c82bc)
