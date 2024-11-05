@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Buku Favorit</title>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">Aplikasi Buku Favorit</h1>
+
+        <!-- Input Nama Pengguna -->
+        <div id="session-container" class="mb-6">
+            <input type="text" id="namaPengguna" placeholder="Masukkan Nama Anda" class="w-full p-2 border border-gray-300 rounded" />
+            <button id="btnSimpanNama" class="w-full mt-2 bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition">Simpan Nama</button>
+            <h3 id="salamPengguna" class="mt-4 text-center text-lg"></h3>
+        </div>
+
+        <!-- Form Tambah Buku -->
+        <form id="form-tambah-buku" class="mb-8">
+            <input type="text" id="judul" placeholder="Judul Buku" required class="w-full p-2 mb-2 border border-gray-300 rounded" />
+            <input type="text" id="penulis" placeholder="Penulis" required class="w-full p-2 mb-2 border border-gray-300 rounded" />
+            <input type="number" id="tahun" placeholder="Tahun Terbit" required class="w-full p-2 mb-2 border border-gray-300 rounded" />
+            <button type="submit" class="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600 transition">Tambah Buku</button>
+        </form>
+
+        <!-- Daftar Buku -->
+        <h2 class="text-2xl font-semibold mb-4">Daftar Buku</h2>
+        <div id="daftar-buku" class="bg-white p-4 rounded shadow"></div>
+
+        <!-- Buku Favorit -->
+        <h2 class="text-2xl font-semibold mb-4 mt-8">Buku Favorit</h2>
+        <div id="buku-favorit" class="bg-white p-4 rounded shadow"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
