@@ -1,6 +1,6 @@
-<title>LAPORAN PRAKTIKUM</title>
+<h1>LAPORAN PRAKTIKUM</h1>
 
-<title>TAILWIND CSS</title>
+<h1>TAILWIND CSS</h1>
 
 
 Nama             : Muhammad Zaidan Ahbab
