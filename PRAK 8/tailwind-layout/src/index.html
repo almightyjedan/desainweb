@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Praktikum Tailwind CSS - Grid Layout dan Dark Mode</title>
+  <link href="../dist/output.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-200 font-montserrat">
+  <!-- Konten akan ditambahkan di sini -->
+  <header class="bg-primary text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Galeri Foto</h1>
+      <button id="dark-mode-toggle" class="btn toggle-dark-mode">Toggle Dark Mode</button>
+    </div>
+  </header>
+  <section class="py-20">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-4">Selamat Datang di Galeri Kami</h2>
+      <p class="text-lg mb-8">Koleksi foto terbaik untuk Anda.</p>
+    </div>
+  </section>
+  <section class="container mx-auto px-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:scale-[1.2]">
+        <img src="/assets/✯.jpeg" alt="Foto 1" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">ANYAAAKKKKK</h3>
+          <p class="text-gray-600 dark:text-gray-400">Anime Spy X Family.</p>
+        </div>
+      </div>
+      <!-- Tambahkan Card 2, 3, dst. dengan struktur yang sama -->
+      <!-- Card 2 -->
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:scale-[1.2]">
+        <img src="/assets/𝒎𝒂𝒓𝒏𝒊𝒆.jpg" alt="Foto 2" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">MARNIEEEEEE</h3>
+          <p class="text-gray-600 dark:text-gray-400">Anime When Marnie Was There.</p>
+        </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:scale-[1.2]">
+      <img src="/assets/7e850593aaa94f8ac778326b392ed722.jpg" alt="Foto 3" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-semibold mb-2">Akal dipake</h3>
+        <p class="text-gray-600 dark:text-gray-400">PAKKEEE AKAL!! AKAL TUH DIPAKE!!!.</p>
+      </div>
+    </div>
+      <!-- Card 4 -->
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:scale-[1.2]">
+        <img src="/assets/WhatsApp Image 2024-05-21 at 08.55.34.jpeg" alt="Foto 3" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Nopal NT</h3>
+          <p class="text-gray-600 dark:text-gray-400">NT dah pokoknya mas ms.</p>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:scale-[1.2]">
+        <img src="/assets/DSC09589.JPG" alt="Foto 3" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">Me And The Bois</h3>
+          <p class="text-gray-600 dark:text-gray-400">ASD ASD ASD.</p>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:scale-[1.2]">
+        <img src="/assets/ScreenShot-2023-9-21_18-29-31.png" alt="Foto 3" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-xl font-semibold mb-2">God Of War</h3>
+          <p class="text-gray-600 dark:text-gray-400">Kratos and Atreus.</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <footer class="bg-primary text-white p-4 mt-10">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2024 Galeri Foto. All rights reserved.</p>
+    </div>
+  </footer>
+  <script>
+    const toggleDarkMode = document.getElementById('dark-mode-toggle');
+    const htmlElement = document.documentElement;
+  
+    toggleDarkMode.addEventListener('click', () => {
+      htmlElement.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
